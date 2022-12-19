@@ -22,7 +22,7 @@ public class UserController {
         var result=repository.findAll();
         doSomething();
         doSomething2();
-        return new ResponseEntity<>(HttpStatus.CREATED);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
     private void doSomething() throws InterruptedException {
